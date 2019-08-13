@@ -1,0 +1,23 @@
+$(document).ready(function(){
+  $('#jscript').click(function(){
+    $('#jscript2').slideToggle()
+  });
+  $('#op').click(function(){
+    $('#op2').slideToggle()
+  });
+  $('#varnam').click(function(){
+    $('#varnam2').slideToggle()
+  });
+  $('#funct1').click(function(){
+    $('#funct2').slideToggle()
+  });
+  $('#method1').click(function(){
+    $('#method2').slideToggle()
+  });
+  $('#param').click(function(){
+    $('#param2').slideToggle()
+  });
+  $('#return').click(function(){
+    $('#return2').slideToggle()
+  });
+});
